@@ -1,11 +1,15 @@
 h1{
     color: blue;
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
 }
 p{
     color: red;
 }
 p.para{
-    color: violet;
+    color: white;
+    background-color: black;
+    font-family: "Teesta";
 }
 #title{
     color: #5d72a8;
@@ -15,4 +19,13 @@ a[href='https://www.google.com']{
 }
 p:not(.para){
     color: #728e24;
+}
+p.font-p{
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+}
+@font-face{
+    font-family: "Teesta";
+    src: url(/fonts/banglafont.ttf);
 }
